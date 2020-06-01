@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaEditarPerfilControlador">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="530.0" stroke="BLACK" strokeType="INSIDE" width="578.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#bc4e9c" />
+                  <Stop color="#f80759" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <TextArea fx:id="txtaApellido" layoutX="196.0" layoutY="220.0" prefHeight="24.0" prefWidth="352.0" />
+      <TextArea fx:id="txtaNombre" layoutX="196.0" layoutY="178.0" prefHeight="24.0" prefWidth="352.0" />
+      <Label layoutX="80.0" layoutY="359.0" prefHeight="36.0" prefWidth="116.0" text="Intereses:">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="316.0" text="Tipo de Comida Favotira">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="214.0" text="Apellido">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="172.0" text="Nombre">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="ckbx15" layoutX="414.0" layoutY="455.0" mnemonicParsing="false" text="Animales" />
+      <CheckBox fx:id="ckbx14" layoutX="411.0" layoutY="431.0" mnemonicParsing="false" text="Bailar" />
+      <CheckBox fx:id="ckbx13" layoutX="411.0" layoutY="405.0" mnemonicParsing="false" text="Navegar por internet" />
+      <CheckBox fx:id="ckbx12" layoutX="321.0" layoutY="455.0" mnemonicParsing="false" text="Musica" />
+      <CheckBox fx:id="ckbx11" layoutX="322.0" layoutY="431.0" mnemonicParsing="false" text="Cantar" />
+      <CheckBox fx:id="ckbx10" layoutX="320.0" layoutY="405.0" mnemonicParsing="false" text="Dibujar" />
+      <CheckBox fx:id="ckbx9" layoutX="248.0" layoutY="455.0" mnemonicParsing="false" text="Teatro" />
+      <CheckBox fx:id="ckbx6" layoutX="162.0" layoutY="455.0" mnemonicParsing="false" text="Anime" />
+      <CheckBox fx:id="ckbx8" layoutX="248.0" layoutY="431.0" mnemonicParsing="false" text="Cine" />
+      <CheckBox fx:id="ckbx5" layoutX="162.0" layoutY="431.0" mnemonicParsing="false" text="Gaming" />
+      <CheckBox fx:id="ckbx7" layoutX="247.0" layoutY="405.0" mnemonicParsing="false" text="Viajar" />
+      <CheckBox fx:id="ckbx4" layoutX="164.0" layoutY="405.0" mnemonicParsing="false" text="Caminar" />
+      <CheckBox fx:id="ckbx3" layoutX="77.0" layoutY="455.0" mnemonicParsing="false" text="Series" />
+      <CheckBox fx:id="ckbx2" layoutX="77.0" layoutY="431.0" mnemonicParsing="false" text="Libros" />
+      <CheckBox fx:id="ckbx1" layoutX="77.0" layoutY="405.0" mnemonicParsing="false" text="Deportes" />
+      <ChoiceBox fx:id="cbxComidas" layoutX="374.0" layoutY="322.0" prefWidth="150.0" />
+      <RadioButton fx:id="rbtnMujer" layoutX="263.0" layoutY="275.0" mnemonicParsing="false" text="M" />
+      <RadioButton fx:id="rbtnHombre" layoutX="193.0" layoutY="275.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="60.0" text="H" />
+      <Label layoutX="85.0" layoutY="265.0" text="Sexo">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnGuardar" layoutX="239.0" layoutY="491.0" mnemonicParsing="false" onAction="#ClickGuardar" prefHeight="25.0" prefWidth="101.0" text="Guardar" />
+      <Text layoutX="79.0" layoutY="138.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Ideal Match " textAlignment="CENTER" wrappingWidth="427.13671875">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

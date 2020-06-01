@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="520.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaPerfilControlador">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="520.0" stroke="BLACK" strokeType="INSIDE" width="568.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#bc4e9c" />
+                  <Stop color="#f80759" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label fx:id="labelNombre" layoutX="20.0" layoutY="127.0" prefHeight="26.0" prefWidth="68.0" text="default" textFill="#f8f8f8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Text layoutX="17.0" layoutY="110.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Perfil" textAlignment="CENTER" wrappingWidth="74.13671875">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Label fx:id="labelApellido" layoutX="88.0" layoutY="127.0" prefHeight="26.0" prefWidth="68.0" text="default" textFill="#f8f8f8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBuscarPareja" layoutX="23.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnBuscarParejaAccion" prefHeight="142.0" prefWidth="164.0" text="BUSCAR PAREJA" />
+      <Button fx:id="btnEditarPerfil" layoutX="202.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnEPAccion" prefHeight="142.0" prefWidth="164.0" text="EDITAR PERFIL" />
+      <Button fx:id="btnBorrarPerfil" layoutX="390.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnBorrarAccion" prefHeight="142.0" prefWidth="164.0" text="BORRAR PERFIL" />
+      <Text layoutX="8.0" layoutY="58.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Ideal Match " textAlignment="CENTER" wrappingWidth="240.13671875">
+         <effect>
+            <Blend />
+         </effect>
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

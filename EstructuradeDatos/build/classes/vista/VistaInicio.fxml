@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="565.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VistaInicioControlador">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="503.0" stroke="BLACK" strokeType="INSIDE" width="565.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#bc4e9c" />
+                  <Stop color="#f80759" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text layoutX="69.0" layoutY="142.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Ideal Match " textAlignment="CENTER" wrappingWidth="427.13671875">
+         <font>
+            <Font size="64.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Text>
+      <ChoiceBox fx:id="cbxInicioSesion" layoutX="173.0" layoutY="226.0" onMouseClicked="#Accionchoicebox" prefHeight="23.0" prefWidth="219.0" />
+      <Button fx:id="btnCrearCuenta" layoutX="173.0" layoutY="303.0" mnemonicParsing="false" onAction="#ClickCrearCuenta" prefHeight="25.0" prefWidth="219.0" text="Crear Cuenta" />
+      <Label layoutX="197.0" layoutY="419.0" prefHeight="17.0" prefWidth="239.0" text="Alan Ezequiel Savoy-A01351362" textAlignment="CENTER">
+         <font>
+            <Font name="Elephant" size="12.0" />
+         </font></Label>
+      <Label layoutX="197.0" layoutY="445.0" prefHeight="17.0" prefWidth="172.0" text="Jorge Salgado-A01636629" textAlignment="CENTER">
+         <font>
+            <Font name="Elephant" size="12.0" />
+         </font></Label>
+      <Button fx:id="btnIniciar" layoutX="240.0" layoutY="261.0" mnemonicParsing="false" onAction="#ClickIniciar" prefHeight="25.0" prefWidth="86.0" text="Iniciar Sesion" />
+   </children>
+</AnchorPane>
